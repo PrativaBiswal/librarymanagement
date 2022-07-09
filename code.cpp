@@ -78,7 +78,7 @@ fstream fobj;ifstream fileobj;
       if(word.find(".txt")!=string::npos){
          
          b1.filename = word;           //assigning filename in book object
-         string path = "/Users/girishkumar/Desktop/c_program/SE_assigment/books/"+word;
+         string path = "/Users/prativa/Desktop/code/"+word;
          fileobj.open(path);
       
          while(fileobj>>word2){
